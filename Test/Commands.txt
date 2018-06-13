@@ -1,0 +1,7 @@
+java -jar antlr-4.7.1-complete.jar DOT.g4
+java org.antlr.v4.Tool DOT.g4
+javac DOT*.java
+
+
+grun DOT graph input.txt
+grun DOT graph input.txt -gui
